@@ -4,8 +4,6 @@ using System.Collections.Generic;
 
 namespace Prova
 {
-
-
     public class Cliente
     {
         
