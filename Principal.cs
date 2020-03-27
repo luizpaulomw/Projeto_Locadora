@@ -1,21 +1,12 @@
 using System;
 using LPFilme;
 
-
-
-
 namespace Prova
 {
-
-
-
     public class Principal
     {
-
         static void Main(String[] args)
         {
-
-
             Console.WriteLine("LuizPaulo\n   ");
 
             // Lista de Clientes
@@ -107,7 +98,6 @@ namespace Prova
                         Console.WriteLine("-> Preço da locação: R$ " + locacao.PrecoTotal());
                         Console.WriteLine("-> Data de locação: " + locacao.calculoData());
                         Console.WriteLine("-> Quantidade de filme locados: " + locacao.QtdeFilmesLoc());
-
                         break;
                     case 4:
                         cliente4.mostrarCliente();
@@ -135,7 +125,6 @@ namespace Prova
                         break;
                 }
             } while (idCliente <= 5);
-
         }
     }
 }

@@ -5,8 +5,6 @@ using System.Collections.Generic;
 
 namespace Prova
 {
-
-
     public class Locacao
     {
         // Atributos
@@ -44,7 +42,7 @@ namespace Prova
             double total = 0;
             foreach (Filme filme in filmes)
             {
-                total += filme.valorLococao;
+                total += filme.valorLocacao;
             }
             return total;
         }

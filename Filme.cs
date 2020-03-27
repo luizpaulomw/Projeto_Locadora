@@ -1,11 +1,7 @@
 using System;
 
-
-
 namespace LPFilme
 {
-
-
     public class Filme
     {
         // Atributos
@@ -13,7 +9,7 @@ namespace LPFilme
         public String titulo;
         public String dataLancamento;
         public String sinopse;
-        public Double valorLococao;
+        public Double valorLocacao;
         public int estoque;
         public int estAtual;
         public int locado;
@@ -27,7 +23,7 @@ namespace LPFilme
             filme1.dataLancamento = dataLancamento;
             this.sinopse = sinopse;
             Filme filme = this;
-            filme.valorLococao = valorLococao;
+            filme.valorLocacao = valorLocacao;
             this.estoque = estoque;
             this.locado = 0;
         }
@@ -45,7 +41,7 @@ namespace LPFilme
             Console.WriteLine($"-> TÍTULO:  {titulo}");
             Console.WriteLine($"-> DATA DE LANÇAMENTO: {dataLancamento}");
             Console.WriteLine($"-> SINOPSE: {sinopse}");
-            Console.WriteLine($"-> VALOR DA LOCAÇÃO: R$  {valorLococao}");
+            Console.WriteLine($"-> VALOR DA LOCAÇÃO: R$  {valorLocacao}");
             Console.WriteLine($"-> QTDE EM ESTOQUE: {estoque}");
             Console.WriteLine($"-> QTDE LOCAÇÕES: {locado}");
             Console.WriteLine($"-------------------------------------------------------------------------------------------------------");
